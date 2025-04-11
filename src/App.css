@@ -1,0 +1,74 @@
+@import "tailwindcss";
+@import 'animate.css';
+.moving-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: moveLeft 10s linear infinite;
+}
+
+@keyframes moveLeft {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* src/App.css or src/review-page.css */
+
+.review-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.reviews {
+  margin-bottom: 40px;
+}
+
+.review {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.review h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.review p {
+  font-style: italic;
+}
+
+.review-form {
+  border-top: 2px solid #ddd;
+  padding-top: 20px;
+}
+
+.review-form form div {
+  margin-bottom: 15px;
+}
+
+.review-form input,
+.review-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.review-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.review-form button:hover {
+  background-color: #45a049;
+}
