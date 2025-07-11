@@ -61,10 +61,16 @@ const Home = () => {
           </button>
         </div>
 
-        {/* Video Background */}
-        <div className="relative w-full h-screen flex items-center justify-center" data-aos="zoom-in">
+        {/* Responsive Video Background */}
+        <div className="absolute inset-0 w-full h-full flex items-center justify-center" data-aos="zoom-in">
           <video
-            className="absolute inset-0 w-full h-full object-cover md:object-center"
+            className="w-full h-full object-cover object-center"
+            style={{
+              minHeight: "100%",
+              minWidth: "100%",
+              maxHeight: "100vh",
+              maxWidth: "100vw",
+            }}
             autoPlay
             muted
             loop

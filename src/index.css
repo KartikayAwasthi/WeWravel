@@ -59,6 +59,36 @@ img, video, iframe {
   display: block;
 }
 
+/* Responsive video background for Home page */
+.home-video-bg,
+.home-video-bg video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+  background: #000;
+}
+
+@media (max-width: 640px) {
+  .home-video-bg,
+  .home-video-bg video {
+    width: 100vw !important;
+    height: 100vh !important;
+    min-width: 100vw !important;
+    min-height: 100vh !important;
+    max-width: 100vw !important;
+    max-height: 100vh !important;
+    object-fit: cover !important;
+  }
+}
+
 /* src/index.css */
 
 /* Animation for the scrolling review list */
