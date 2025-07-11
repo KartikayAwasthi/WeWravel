@@ -18,7 +18,8 @@ import Gallery from "./pages/Gallery";
 import TermsAndConditions from "./pages/TermsAndConditions"; // Import the new page
 import FAQ from "./pages/FAQ"; // Import the FAQ page
 import "./index.css";
-import BookingForm from "./pages/BookingForm";
+
+
 
 function App() {
     return (
