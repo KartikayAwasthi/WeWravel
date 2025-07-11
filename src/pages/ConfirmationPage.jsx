@@ -29,7 +29,8 @@ const ConfirmationPage = () => {
     `;
 
     const phoneNumber = travellers[0]?.phone || "0000000000"; // Use the first traveler's phone number or a default
-    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(confirmationMessage)}`;
+    const mob= '+918181862121'
+    const whatsappURL = `https://wa.me/${mob}?text=${encodeURIComponent(confirmationMessage)}`; // Revert back to using the traveler's phone number
     
     window.open(whatsappURL, "_blank"); // Redirect to WhatsApp in a new tab
   };

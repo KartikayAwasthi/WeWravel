@@ -15,6 +15,8 @@ import BookingSummary from "./pages/BookingSummary";
 import Contact from "./pages/Contact"; 
 import ConfirmationPage from "./pages/ConfirmationPage";
 import Gallery from "./pages/Gallery";
+import TermsAndConditions from "./pages/TermsAndConditions"; // Import the new page
+import FAQ from "./pages/FAQ"; // Import the FAQ page
 import "./index.css";
 
 function App() {
@@ -24,24 +26,18 @@ function App() {
             <div className="container mx-auto px-4">
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/" element={<Destinations />} /> 
                     <Route path="/destinations" element={<Destinations />} />
                     <Route path="/destination-details/:urlSlug" element={<DestinationDetails />} />
-                    <Route path="/destinations/:destinationId" element={<DestinationDetails />} /> 
-                    <Route path="/destination-details/:destinationName" element={<DestinationDetails />} /> 
-                    <Route path="/destination-details/:name" element={<DestinationDetails />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/reviews" element={<Reviews />} />
-                    
-                    <Route path="/contact" element={<Contact />} /> 
-                    <Route path="/manali-kasol-sissu" element={<ManaliKasolSissu />} />
-                    <Route path="/kasol-kheerganga" element={<KasolKheerganga />} />
-                    <Route path="/booking" element={<BookingForm />} />
-                    <Route path="/booking-summary" element={<BookingSummary />} /> 
-                    <Route path="/confirmation-page" element={<ConfirmationPage />} />
+                    <Route path="/contact" element={<Contact />} />
                     <Route path="/gallery" element={<Gallery />} />
+                    <Route path="/booking" element={<BookingForm />} />
+                    <Route path="/booking-summary" element={<BookingSummary />} />
+                    <Route path="/confirmation-page" element={<ConfirmationPage />} />
+                    <Route path="/faq" element={<FAQ />} />
                 </Routes>
-                <WhatsAppButton /> 
+                <WhatsAppButton />
             </div>
             <Footer />
         </Router>

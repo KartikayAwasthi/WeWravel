@@ -1,7 +1,7 @@
 const destinationsData = [
     {
         name: "Manali - Sissu - Kasol",
-        tripCode: "TRIP001",
+        tripCode: "Manali - Sissu - Kasol",
         summary: "Explore the serene beauty of Himachal Pradesh with breathtaking views and adventure activities.",
         rating: 4.5,
         cost: "₹4,999*",
@@ -44,7 +44,7 @@ const destinationsData = [
     },
     {
         name: "Kasol - Kheerganga",
-        tripCode: "TRIP002",
+        tripCode: "Kasol - Kheerganga",
         summary: "A trekker's paradise with lush greenery, hot springs, and tranquil vibes.",
         rating: 4.7,
         cost: "₹4,999*",
@@ -84,7 +84,7 @@ const destinationsData = [
     },
     {
         name: "Jibhi - Tirthan Valley",
-        tripCode: "TRIP003",
+        tripCode: "Jibhi - Tirthan Valley",
         summary: "Unwind in the lap of nature with riverside camping and scenic trails.",
         rating: 4.6,
         cost: "₹5,499*",
@@ -173,7 +173,7 @@ const destinationsData = [
     },
     {
         name: "Macleodganj - Triund",
-        tripCode: "TRIP005",
+        tripCode: "Macleodganj - Triund",
         summary: "A peaceful retreat with Tibetan culture and a mesmerizing trek to Triund.",
         rating: 4.4,
         cost: "₹6,999*",
@@ -213,7 +213,7 @@ const destinationsData = [
     },
     {
         name: "Spiti Valley",
-        tripCode: "TRIP006",
+        tripCode: "Macleodganj - Triund",
         summary: "Discover the cold desert with ancient monasteries and awe-inspiring landscapes.",
         rating: 4.9,
         cost: "₹17,499*",
@@ -255,7 +255,7 @@ const destinationsData = [
     },
     {
         name: "Udaipur - Mount Abu",
-        tripCode: "TRIP007",
+        tripCode: "Udaipur - Mount Abu",
         summary: "A royal journey through the city of lakes and the only hill station of Rajasthan.",
         rating: 4.3,
         cost: "₹5,999*",
@@ -297,7 +297,7 @@ const destinationsData = [
     },
     {
         name: "Jaisalmer",
-        tripCode: "TRIP008",
+        tripCode: "Jaisalmer",
         summary: "Experience the golden sands, camel rides, and the grandeur of the Thar Desert.",
         rating: 4.2,
         cost: "₹6,999*",
@@ -338,7 +338,7 @@ const destinationsData = [
     },
     {
         name: "Kashmir",
-        tripCode: "TRIP009",
+        tripCode: "Kashmir",
         summary: "Paradise on Earth with snow-capped mountains, lush valleys, and houseboats.",
         rating: 5.0,
         cost: "₹17,999*",
@@ -379,7 +379,7 @@ const destinationsData = [
         pickupDrop: "Srinagar"
     }, {
         name: "Char Dham Yatra",
-        tripCode: "TRIP002",
+        tripCode: "Char Dham Yatra",
         summary: "Embark on a spiritual journey covering Yamunotri, Gangotri, Kedarnath, and Badrinath.",
         rating: 4.8,
         cost: "₹24,999*",
@@ -422,7 +422,7 @@ const destinationsData = [
     },
     {
         name: "Do Dham Yatra - Kedarnth & Badrinatha",
-        tripCode: "TRIP003",
+        tripCode: "Do Dham Yatra - Kedarnth & Badrinatha",
         summary: "Visit the two most revered pilgrimage sites in Uttarakhand, Kedarnath and Badrinath.",
         rating: 4.7,
         cost: "₹14,999*",
@@ -463,7 +463,7 @@ const destinationsData = [
     },
     {
         name: "Kedarnath Yatra",
-        tripCode: "TRIP004",
+        tripCode: "Kedarnath Yatra",
         summary: "A spiritual and adventurous journey to the sacred Kedarnath Temple.",
         rating: 4.6,
         cost: "₹9,999*",
@@ -501,7 +501,7 @@ const destinationsData = [
     },
     {
         name: "Badrinath Yatra",
-        tripCode: "TRIP005",
+        tripCode: "Kedarnath Yatra",
         summary: "Visit the sacred Badrinath Temple, one of the Char Dham sites.",
         rating: 4.7,
         cost: "₹7,999*",

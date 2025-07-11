@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom"; // Import Link
 
 const Footer = () => {
   const [activeInfo, setActiveInfo] = useState(null);
@@ -39,15 +40,18 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div className="grid grid-cols-2 md:grid-cols-3 gap-6 text-sm text-gray-300 relative">
-          <button
-            onMouseEnter={(e) => handleMouseEnter('terms', e)}
-            onMouseLeave={handleMouseLeave}
-            onClick={(e) => handleClick('terms', e)}
-            className="hover:text-white transition duration-300 relative"
+          <Link
+            to="/terms-and-conditions"
+            className="hover:text-white transition duration-300"
           >
             📜 Terms & Conditions
-          </button>
-          <a href="#" className="hover:text-white transition duration-300">❓ FAQs</a>
+          </Link>
+          <Link
+            to="/faq" // Updated to link to the FAQ page
+            className="hover:text-white transition duration-300"
+          >
+            ❓ FAQs
+          </Link>
           <button
             onMouseEnter={(e) => handleMouseEnter('cancellation', e)}
             onMouseLeave={handleMouseLeave}
