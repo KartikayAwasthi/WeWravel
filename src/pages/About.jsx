@@ -3,15 +3,15 @@ import { useNavigate } from 'react-router-dom';
 
 const teamMembers = [
   {
-    name: 'Shivam Batra',
+    name: 'Kartikay',
     role: 'Co-Founder & CEO',
-    image: 'https://static.dezeen.com/uploads/2021/06/elon-musk-architect_dezeen_1704_col_1.jpg',
+    image: 'https://scontent.fknu2-1.fna.fbcdn.net/v/t1.6435-9/202014219_3979762808808844_7474593633080487358_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=r482NLdGBFIQ7kNvwGG7B7N&_nc_oc=Adn2hKiaAFR48sbhHytsnbnzK_BBNCk23S9bcOe7RX_qiTXVWcGcLfI-1JW1pLWuTVc&_nc_zt=23&_nc_ht=scontent.fknu2-1.fna&_nc_gid=bGCHoQiZLkEapM5ps5jbaw&oh=00_AfSz_bEBJSddh7aIc23xyrJVJcAyTQu4OOt9dE1ZhBSlcA&oe=689958D3',
     bio: 'Passionate about travel and creating seamless experiences for adventurers worldwide.',
   },
   {
-    name: 'Jane Smith',
+    name: 'Elisabeth Hendrickson',
     role: 'Co-Founder & COO',
-    image: 'https://via.placeholder.com/150',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStO_trHeatr8IQre9kAfZpqZT_wGflXAsYeCx7KWNTBtFNEB7JU0dZixImz4cF-pa9BH4&usqp=CAU',
     bio: 'Ensuring top-notch services and customer satisfaction in every journey.',
   },
 ];
