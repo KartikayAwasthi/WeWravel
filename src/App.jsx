@@ -8,14 +8,13 @@ import About from "./pages/About";
 import Reviews from "./pages/Reviews";
 
 import WhatsAppButton from "./components/WhatsAppButton"; 
-import ManaliKasolSissu from "./pages/manaliKasolSissu"; 
-import KasolKheerganga from "./pages/kasolkheerganga"; 
-import BookingForm from "./pages/BookingForm"; 
+
+import BookingForm from "./pages/bookingForm"; 
 import BookingSummary from "./pages/BookingSummary"; 
 import Contact from "./pages/Contact"; 
 import ConfirmationPage from "./pages/ConfirmationPage";
 import Gallery from "./pages/Gallery";
-import TermsAndConditions from "./pages/TermsAndConditions"; // Import the new page
+
 import FAQ from "./pages/FAQ"; // Import the FAQ page
 import "./index.css";
 
